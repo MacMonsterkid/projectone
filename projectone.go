@@ -32,10 +32,10 @@ func main() {
 	}
 
 	var p Person
-	p.name = "Joe"
+	p.name = "James"
 	p.age = 25
 	p.job = "IT Manager"
-	p.salary = 80000
+	p.salary = 70000
 
 	fmt.Println(p)
 
