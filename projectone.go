@@ -39,4 +39,6 @@ func main() {
 
 	fmt.Println(p)
 
+	//var m map[int]*Person
+
 }
