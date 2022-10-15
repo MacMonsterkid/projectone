@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+type Person struct {
+	name   string
+	age    int
+	job    string
+	salary int
+}
+
 func main() {
 	fmt.Println("Hello, world!")
 
@@ -21,5 +28,15 @@ func main() {
 	for index, user := range userlist {
 		fmt.Println(index)
 		fmt.Println(user)
+
 	}
+
+	var p Person
+	p.name = "Joe"
+	p.age = 25
+	p.job = "IT Manager"
+	p.salary = 80000
+
+	fmt.Println(p)
+
 }
