@@ -35,7 +35,7 @@ func main() {
 	p.name = "James"
 	p.age = 25
 	p.job = "IT Manager"
-	p.salary = 80000
+	p.salary = 70000
 
 	fmt.Println(p)
 
