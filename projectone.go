@@ -32,7 +32,7 @@ func main() {
 	}
 
 	var p Person
-	p.name = "John"
+	p.name = "Joe"
 	p.age = 25
 	p.job = "IT Manager"
 	p.salary = 80000
