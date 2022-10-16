@@ -37,17 +37,15 @@ func main() {
 	p.job = "IT Manager"
 	p.salary = 70000
 
-	fmt.Println(p)
-
-	var p1 Person 
+	var p1 Person
 	p1.name = "Fritz"
 	p1.age = 34
 	p1.job = "Developer"
 	p1.salary = 45000
 
+	var personlist []Person
+	personlist = append(personlist, p, p1)
 
-
-	fmt.Println(p1)
-
+	fmt.Println(personlist, len(personlist))
 
 }
