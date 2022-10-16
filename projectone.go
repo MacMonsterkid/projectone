@@ -39,4 +39,15 @@ func main() {
 
 	fmt.Println(p)
 
+	var p1 Person 
+	p1.name = "Fritz"
+	p1.age = 34
+	p1.job = "Developer"
+	p1.salary = 45000
+
+
+
+	fmt.Println(p1)
+
+
 }
