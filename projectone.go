@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/MacMonsterkid/projectone/pkg/helpers"
+)
 
 type Person struct {
 	name   string
@@ -47,5 +51,9 @@ func main() {
 	personlist = append(personlist, p, p1)
 
 	fmt.Println(personlist, len(personlist))
+
+	myPort := helpers.Port
+
+	fmt.Println(fmt.Sprintf("Listen on localhost port %s", myPort))
 
 }
